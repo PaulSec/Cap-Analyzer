@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "CAP Analyzer",
+    "slug": "cap-analyzer",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "cap-analyzer",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "web": "expo start --web",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "d3": "^7.9.0",
+    "expo": "^55.0.4",
+    "expo-document-picker": "^55.0.8",
+    "expo-status-bar": "^55.0.4",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-dropzone": "^14.3.8",
+    "react-native": "^0.84.1",
+    "react-native-svg": "^15.15.3",
+    "react-native-web": "^0.21.2",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@types/d3": "^7.4.3",
+    "@types/react": "^19.2.14",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "typescript": "^5.9.3"
+  }
+}
